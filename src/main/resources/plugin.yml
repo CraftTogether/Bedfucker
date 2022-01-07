@@ -1,0 +1,7 @@
+name: Bedfucker
+version: '${version}'
+main: com.github.crafttogether.bedfucker.bedfucker.Plugin
+api-version: 1.18
+prefix: Bedfucker
+authors: [ Marian ]
+description: Be able to break bedrock
