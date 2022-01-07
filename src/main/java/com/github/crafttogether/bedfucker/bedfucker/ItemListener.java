@@ -19,7 +19,7 @@ public class ItemListener implements Listener {
                 Bukkit.getLogger().info("Breaking bedrock");
                 event.getPlayer().getInventory().remove(Item.bedfucker);
                 event.getClickedBlock().breakNaturally();
-                event.getPlayer().getLocation().createExplosion(10f);
+                event.getPlayer().getLocation().createExplosion(5f);
             }
             event.setCancelled(true);
         }
